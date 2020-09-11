@@ -155,9 +155,9 @@ export const Upload: FC<UploadProps> = (props) => {
     });
   };
   return (
-    <div className="viking-upload-component">
+    <div className="atom-upload-component">
       <div
-        className="viking-upload-input"
+        className="atom-upload-input"
         style={{ display: "inline-block" }}
         onClick={handleClick}
       >
@@ -173,7 +173,7 @@ export const Upload: FC<UploadProps> = (props) => {
           children
         )}
         <input
-          className="viking-file-input"
+          className="atom-file-input"
           style={{ display: "none" }}
           ref={fileInput}
           onChange={handleFileChange}
